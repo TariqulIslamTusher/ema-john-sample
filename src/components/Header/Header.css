@@ -1,0 +1,14 @@
+.header{
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 90px 10px 100px;
+}
+
+.header > div> a{
+    text-decoration: none;
+    margin: 0 10px;
+    color:white
+}
