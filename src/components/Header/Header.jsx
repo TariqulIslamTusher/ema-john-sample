@@ -4,7 +4,7 @@ import logo from '../../assets/images/Logo.svg'
 
 const Header = () => {
     return (
-        <div>
+        <nav>
             <div className='header'>
                 <img src={logo} alt="" />
                 <div>
@@ -14,7 +14,7 @@ const Header = () => {
                     <a href="4">Log In</a>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 
